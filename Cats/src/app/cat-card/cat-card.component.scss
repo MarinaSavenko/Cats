@@ -1,0 +1,21 @@
+.example-card {
+    max-width: 400px;
+    margin-top: 20px;
+        
+    
+  }
+  
+  .example-header-image {
+    background-image: {{cat.image.src}};
+    background-size: cover;
+  }
+  .img_container{
+    max-height: 230px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+      img{
+        width: 100%;
+      }
+
+  }
